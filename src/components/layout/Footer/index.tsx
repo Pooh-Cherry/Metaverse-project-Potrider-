@@ -28,7 +28,7 @@ const Footer = () => {
     <div className="bg-white">
       <div className="flex flex-col text-[#343538] py-0 px-[5%] max-w-[1224px] m-auto text-left">
         <div className="w-full flex flex-col justify-between border-[#E8E9EB] border-t md:flex-row">
-          <div className="flex flex-col">
+          <div className="flex flex-col max-w-[320px] w-full">
             <div className="flex items-center justify-center p-3 md:flex md:justify-normal">
               <LogoIcon width={33} height={33} />
               <h2 className="py-2 px-3 text-[14px] leading-5 font-bold md:text-[18px] md:leading-6">
@@ -56,8 +56,8 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-1 min-w-0">
-            <div className="flex w-full flex-col lg:grid-cols-4 lg:grid">
+          <div className="flex flex-1 md:max-x-[715px] min-w-0">
+            <div className="flex w-full flex-col gap-4 lg:grid-cols-4 lg:grid">
               <div className="pb-5 border-b border-[#E8E9EB] lg:border-none">
                 <h2
                   className={clsx(
@@ -386,7 +386,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="w-full flex flex-col justify-between border-[#E8E9EB] border-t md:flex-row">
-          <div className="flex flex-col flex-1 w-full">
+          <div className="flex flex-col max-w-[320px] w-full">
             <div className="flex items-center justify-center p-3 md:flex md:justify-normal">
               <LogoIcon width={33} height={33} />
               <h2 className="py-2 px-3 text-[14px] leading-5 font-bold md:text-[18px] md:leading-6">
@@ -414,8 +414,8 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="flex max-w-[685px]">
-            <div className="flex w-full flex-col lg:grid-cols-4 lg:grid">
+          <div className="flex flex-1 md:max-w-[715px]">
+            <div className="flex w-full flex-col gap-6 lg:grid-cols-4 lg:grid">
               <div className="pb-5 border-b border-[#E8E9EB] lg:border-none">
                 <h2
                   className={clsx(
