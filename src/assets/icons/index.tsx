@@ -5,7 +5,7 @@ import SearchIcon from "./Search";
 import DropdownArrowIcon from "./DropdownArrow";
 import MetaIcon from "./Meta";
 import XIcon from "./X";
-import InstagramIcon from "./instagram";
+import InstagramIcon from "./Instagram";
 import PinterestIcon from "./Pinterest";
 
 export {

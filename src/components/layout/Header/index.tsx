@@ -16,11 +16,9 @@ const Header = () => {
 
   // Effect to handle clicks outside the search bar to close the dropdown
   useEffect(() => {
-    const handleClickOutside = (event) => {
-      if (
-        searchWrapperRef.current &&
-        !searchWrapperRef.current.contains(event.target)
-      ) {
+    const handleClickOutside = () => {
+      // Check if searchWrapperRef has a current value and contains the target
+      if (searchWrapperRef.current) {
         setShowSearchDropdown(false);
       }
     };
